@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/taptveyo/repositories/taptapdog_site
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp wanderMaps.html $DEPLOYPATH
+    - /bin/cp taptapdog.css $DEPLOYPATH
+
