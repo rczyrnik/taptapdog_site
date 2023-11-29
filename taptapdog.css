@@ -2,8 +2,13 @@
     --orange:#EE993D;
     --light_purple:#E59CF9;
     --dark_purple:#A500BD;
-    --light_blue:#ABCCF5;
-    --dark_blue:#276287;
+    --light_blue:  #ABCCF5;
+    --light_gray:#EFEFEF;
+    --dark_blue:   #276287;
+    --bart_red:#DA5649;
+    --bart_yellow:#F8E677;
+    --bart_blue:#6897D1;
+    --bart_green:#6BB787;
 }
 
 
@@ -69,6 +74,21 @@ tr {
     font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+
+
+
 td {
     padding: 0 15px;
   }
+
+.br { background-color: var(--bart_red);    color: var(--bart_red)     }
+.by { background-color: var(--bart_yellow); color: var(--bart_yellow); }
+.bb { background-color: var(--bart_blue);   color: var(--bart_blue);   }
+.bg { background-color: var(--bart_green);  color: var(--bart_green);  }
+.bt { background-color: transparent;        color: transparent;  }
+
+
+tr:nth-child(even) {
+  background-color: var(--light_gray);
+}
+
