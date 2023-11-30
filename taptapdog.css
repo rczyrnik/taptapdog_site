@@ -1,3 +1,4 @@
+/* Constants */
 :root {
     --orange:#EE993D;
     --light_purple:#E59CF9;
@@ -11,49 +12,22 @@
     --bart_green:#6BB787;
 }
 
+/* All Pages */
 
-.main_content_index {
-    padding-top: 2em;
-    margin: 0em 0em 0em 0em;
-    min-width: 40em;
-}
-
-.column_left {
-    float: left;
-    width: 48%;
-}
-
-.column_right {
-    float: right;
-    width: 48%;
-}
-
-.projects {
-  background-color: var(--light_blue);
-  border-radius: 20px;
-  margin-bottom: 35pt;
-  padding-right: 15pt;
-}
-
-.projects_text {
-  padding-top: 12pt;
-  padding-right: 12pt;
-  padding-left: 12pt;
-  padding-bottom: 12pt;
+body {
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 1px;
     color: var(--dark_blue);
-    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     }
 
 h2 {
     font-size: 18pt;
     color: var(--dark_blue);
     margin: 0em;
-    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 a {
@@ -61,25 +35,30 @@ a {
     visited: var(--light_purple)
 }
 
+.plain { text-decoration: none; }
+
+.square-image {
+  float: top;
+  width: 150pt;
+  height: 150pt;
+}
+
+/* All Pages, Tables */
+
 th {
     text-align: left;
     font-size: 14pt;
     color: var(--dark_blue)
-    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 0 15px;
-
 }
-
-tr {
-    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-
-
 
 td {
     padding: 0 15px;
   }
+
+tr:nth-child(even) {
+  background-color: var(--light_gray);
+}
 
 .br { background-color: var(--bart_red);    color: var(--bart_red)     }
 .by { background-color: var(--bart_yellow); color: var(--bart_yellow); }
@@ -88,7 +67,18 @@ td {
 .bt { background-color: transparent;        color: transparent;  }
 
 
-tr:nth-child(even) {
-  background-color: var(--light_gray);
+/* All Pages, Flex Containers */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.content {
+  text-align: center;
+  padding: 30px;
 }
 
