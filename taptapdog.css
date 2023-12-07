@@ -10,6 +10,10 @@
     --bart_yellow:#F8E677;
     --bart_blue:#6897D1;
     --bart_green:#6BB787;
+    --four:#e8f9ff;
+    --eigt:#e8ffee;
+    --twel:#fff6e8;
+    --twfr:#ffe8e8;
 }
 
 /* All Pages */
@@ -56,7 +60,7 @@ td {
     padding: 0 15px;
   }
 
-tr:nth-child(even) {
+xtr:nth-child(even) {
   background-color: var(--light_gray);
 }
 
@@ -65,7 +69,12 @@ tr:nth-child(even) {
 .bb { background-color: var(--bart_blue);   color: var(--bart_blue);   }
 .bg { background-color: var(--bart_green);  color: var(--bart_green);  }
 .bt { background-color: transparent;        color: transparent;  }
+.four { background-color: var(--four);}
+.eigt { background-color: var(--eigt);}
+.twel { background-color: var(--twel);}
+.twfr { background-color: var(--twfr);}
 
+.nowrap {white-space: nowrap;}
 
 /* All Pages, Flex Containers */
 
