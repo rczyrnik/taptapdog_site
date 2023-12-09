@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/taptvyeo/repositories/taptapdog_site
-    - /bin/cp -R * $DEPLOYPATH
-
+    - export DEPLOYPATH=/home/taptvyeo/repositories/taptapdog_site/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp taptapdog.css $DEPLOYPATH
