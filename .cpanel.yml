@@ -4,15 +4,15 @@ deployment:
     - export DEPLOYPATH=/home/taptvyeo/public_html/
     - /bin/cp taptapdog.css $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp index_images/me.png $DEPLOYPATH
-    - /bin/cp index_images/taptapdog.png $DEPLOYPATH
-    - /bin/cp index_images/tastynoms.png $DEPLOYPATH
-    - /bin/cp index_images/wanders.png $DEPLOYPATH
-    - /bin/cp wandersUnion.html $DEPLOYPATH
-    - /bin/cp wandersUnion_bart.html $DEPLOYPATH
-    - /bin/cp wandersUnion_progress.html $DEPLOYPATH
-    - /bin/cp wandersUnion_maps.html $DEPLOYPATH
-    - /bin/cp wandersUnion_images/bart.png $DEPLOYPATH
-    - /bin/cp wandersUnion_images/gandalf.png $DEPLOYPATH
-    - /bin/cp wandersUnion_images/map.png $DEPLOYPATH
-    - /bin/cp wandersUnion_images/seal.png $DEPLOYPATH
+    - /bin/cp wu.html $DEPLOYPATH
+    - /bin/cp wu_bart.html $DEPLOYPATH
+    - /bin/cp wu_progress.html $DEPLOYPATH
+    - /bin/cp wu_maps.html $DEPLOYPATH
+    - /bin/cp ix_images/taptapdog.png $DEPLOYPATH
+    - /bin/cp ix_images/me.png $DEPLOYPATH
+    - /bin/cp ix_images/wanders.png $DEPLOYPATH
+    - /bin/cp ix_images/tastynoms.png $DEPLOYPATH
+    - /bin/cp wu_images/seal.jpg $DEPLOYPATH
+    - /bin/cp wu_images/bart.png $DEPLOYPATH
+    - /bin/cp wu_images/gandalf.png $DEPLOYPATH
+    - /bin/cp wu_images/map.png $DEPLOYPATH
