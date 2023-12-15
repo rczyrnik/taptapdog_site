@@ -8,10 +8,10 @@ deployment:
     - /bin/cp wu_bart.html $DEPLOYPATH
     - /bin/cp wu_progress.html $DEPLOYPATH
     - /bin/cp wu_maps.html $DEPLOYPATH
-    - /bin/cp ix_images/taptapdog.png $DEPLOYPATH
-    - /bin/cp ix_images/me.png $DEPLOYPATH
-    - /bin/cp ix_images/wanders.png $DEPLOYPATH
-    - /bin/cp ix_images/tastynoms.png $DEPLOYPATH
+    - /bin/cp ix_images/ix_taptapdog.png $DEPLOYPATH
+    - /bin/cp ix_images/ix_me.png $DEPLOYPATH
+    - /bin/cp ix_images/ix_wanders.png $DEPLOYPATH
+    - /bin/cp ix_images/ix_tastynoms.png $DEPLOYPATH
     - /bin/cp wu_images/seal.jpg $DEPLOYPATH
     - /bin/cp wu_images/bart.png $DEPLOYPATH
     - /bin/cp wu_images/gandalf.png $DEPLOYPATH
