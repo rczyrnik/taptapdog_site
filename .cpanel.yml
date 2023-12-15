@@ -2,18 +2,19 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/taptvyeo/public_html/
-    - /bin/cp taptapdog.css $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp wu.html $DEPLOYPATH
-    - /bin/cp wu_bart.html $DEPLOYPATH
-    - /bin/cp wu_xtown.html $DEPLOYPATH
-    - /bin/cp wu_maps.html $DEPLOYPATH
     - /bin/cp ix_images/ix_me.png $DEPLOYPATH
     - /bin/cp ix_images/ix_taptapdog.png $DEPLOYPATH
     - /bin/cp ix_images/ix_tastynoms.png $DEPLOYPATH
     - /bin/cp ix_images/ix_wanders.png $DEPLOYPATH
+    - /bin/cp taptapdog.css $DEPLOYPATH
+    - /bin/cp wu_bart.html $DEPLOYPATH
     - /bin/cp wu_images/wu_bart.png $DEPLOYPATH
     - /bin/cp wu_images/wu_map.png $DEPLOYPATH
     - /bin/cp wu_images/wu_seal.jpg $DEPLOYPATH
     - /bin/cp wu_images/wu_xtown.png $DEPLOYPATH
+    - /bin/cp wu_xtown.html $DEPLOYPATH
+    - /bin/cp wu_maps.html $DEPLOYPATH
+    - /bin/cp wu.html $DEPLOYPATH
+
 
