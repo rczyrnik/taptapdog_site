@@ -50,7 +50,7 @@ a {
 /* All Pages, Tables */
 
 th {
-    text-align: left;
+    text-align: center;
     font-size: 14pt;
     color: var(--dark_blue)
     padding: 0 15px;
@@ -96,4 +96,33 @@ xtr:nth-child(even) {
     color: var(--dark_blue);
     margin: 0em;
 }
+
+/* Progress Page */
+
+.progress {
+  border-collapse: collapse;
+border-spacing:0;
+max-width:100%;
+white-space:nowrap;
+}
+
+table.progress tr:nth-child(even) {
+  background-color: var(--light_gray);
+}
+
+.dkCol {
+  width: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+
+
+/* Detail Page */
+
+.wu_detail {
+  float: top;
+  width: 450pt;
+}
+
+
 
