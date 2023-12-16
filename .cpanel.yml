@@ -7,6 +7,10 @@ deployment:
     - /bin/cp ix_taptapdog.png $DEPLOYPATH
     - /bin/cp ix_tastynoms.png $DEPLOYPATH
     - /bin/cp ix_wanders.png $DEPLOYPATH
+    - /bin/cp proj_calculators.png $DEPLOYPATH
+    - /bin/cp proj_cameras.png $DEPLOYPATH
+    - /bin/cp proj_smalls.png $DEPLOYPATH
+    - /bin/cp proj_spectroscope.png $DEPLOYPATH
     - /bin/cp taptapsite.css $DEPLOYPATH
     - /bin/cp wu_bart.png $DEPLOYPATH
     - /bin/cp wu_map.png $DEPLOYPATH
