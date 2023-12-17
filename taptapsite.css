@@ -79,7 +79,7 @@ td {
     padding: 0 15px;
   }
 
-tr:nth-child(even) {
+xtr:nth-child(even) {
   background-color: var(--light_gray);
 }
 
