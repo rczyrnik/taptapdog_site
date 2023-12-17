@@ -79,7 +79,7 @@ td {
     padding: 0 15px;
   }
 
-xtr:nth-child(even) {
+tr:nth-child(even) {
   background-color: var(--light_gray);
 }
 
@@ -87,7 +87,9 @@ xtr:nth-child(even) {
 .by { background-color: var(--bart_yellow); color: var(--bart_yellow); }
 .bb { background-color: var(--bart_blue);   color: var(--bart_blue);   }
 .bg { background-color: var(--bart_green);  color: var(--bart_green);  }
-.bt { background-color: transparent;        color: transparent;  }
+/*.bt { background-color: transparent;        color: transparent;  }*/
+.bt { background-color: white;        color: white;  }
+
 .four { background-color: var(--four);}
 .eigt { background-color: var(--eigt);}
 .twel { background-color: var(--twel);}
