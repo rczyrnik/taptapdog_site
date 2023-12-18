@@ -66,6 +66,16 @@ img {
     font-size: 10pt;
 }
 
+IMG.displayed {
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 36px;
+    max-width: 80%;
+    max-height: 300px;
+
+    }
+
 /* All Pages, Tables */
 
 th {
