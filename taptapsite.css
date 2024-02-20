@@ -221,7 +221,7 @@ content {
     border: 2px solid;
     border-radius: 1em;
     position: fixed;
-    top: 10em;
+    top: 18em;
     right: 3em;
 }
 
@@ -231,6 +231,18 @@ content {
     margin: 0em;
 }
 
+
+.projectBox {
+    background-color: lightgray;
+    min-width: 100px;
+    max-width: 600pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20pt;
+    padding: 0px 20px 20px 20px;
+
+}
+
+
 .screenshot {
 	height: 150px;
-
